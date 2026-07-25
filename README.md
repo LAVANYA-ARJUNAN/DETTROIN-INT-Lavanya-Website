@@ -1,16 +1,90 @@
-# React + Vite
+# Vasant Valley School Website Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive school website redesign created as part of the Dettroin technical assessment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Student Details
 
-## React Compiler
+**Name:** Lavanya
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Intern ID:** Not Provided
 
-## Expanding the ESLint configuration
+**Email:** lavanyaarjunan4@gmail.com
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**GitHub Username:** LAVANYA-ARJUNAN 
+
+---
+
+## Selected Website
+
+**Original Website:**
+
+https://www.vasantvalley.org/
+
+**Redesigned Website:**
+
+Vasant Valley School Website
+
+---
+
+## Live Demo
+
+Add your Vercel deployment link here:
+
+YOUR_VERCEL_LINK_HERE
+
+---
+
+## Technologies Used
+
+- React.js
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Framer Motion
+- React Icons
+- JavaScript (ES6+)
+- Git & GitHub
+- Vercel Deployment
+
+---
+
+## Key Improvements Made
+
+### UI/UX Improvements
+- Redesigned the website with a modern and professional layout
+- Improved navigation experience with responsive navbar
+- Added clean typography and structured sections
+- Created a user-friendly interface for students and parents
+
+### Responsive Design
+- Fully responsive for:
+  - Desktop
+  - Tablet
+  - Mobile devices
+
+### Performance Improvements
+- Optimized component structure
+- Used reusable React components
+- Managed local assets efficiently
+
+### Features Added
+
+- Modern hero section with animations
+- About school section
+- Academic programs section
+- Admissions section
+- Gallery with interactive images
+- Contact page
+- Login and Register UI pages
+- Footer navigation links
+
+### Animation & Interaction
+- Smooth animations using Framer Motion
+- Hover effects
+- Interactive buttons and navigation
+
+---
+
+## Project Structure

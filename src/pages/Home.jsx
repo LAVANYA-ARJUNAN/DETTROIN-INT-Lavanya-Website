@@ -5,6 +5,7 @@ import Features from "../components/Features/Features";
 import Gallery from "../components/Gallery/Gallery";
 import Testimonials from "../components/Testimonials/Testimonials";
 import AdmissionCTA from "../components/AdmissionCTA/AdmissionCTA";
+import Footer from "../components/Footer/Footer";
 const Home = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const Home = () => {
       <Gallery />
       <Testimonials />
       <AdmissionCTA />
+      <Footer/>
     </>
   );
 };

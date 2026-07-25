@@ -1,7 +1,12 @@
+import Navbar from "../components/Navbar/Navbar";
+
 const Home = () => {
   return (
     <>
-      <h1>Home Page</h1>
+      <Navbar />
+      <div className="pt-32 text-center">
+        <h1 className="text-5xl font-bold">Welcome</h1>
+      </div>
     </>
   );
 };

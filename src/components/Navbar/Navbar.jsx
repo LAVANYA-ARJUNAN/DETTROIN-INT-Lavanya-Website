@@ -19,13 +19,16 @@ const Navbar = () => {
 
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
 
-        <Link to="/">
+        <Link 
+  to="/" 
+  onClick={() => setIsOpen(false)}
+>
   <h1 className="text-2xl font-bold text-blue-900">
     Vasant Valley School
   </h1>
 
   <p className="text-xs text-gray-500">
-    Excellence in Education
+    Nurturing Young Minds
   </p>
 </Link>
 
@@ -42,6 +45,24 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        <div className="hidden md:flex items-center gap-4">
+
+  <Link
+    to="/login"
+    className="text-blue-700 font-medium hover:text-blue-900"
+  >
+    Login
+  </Link>
+
+
+  <Link
+    to="/register"
+    className="bg-blue-700 text-white px-5 py-2 rounded-full hover:bg-blue-800 transition"
+  >
+    Register
+  </Link>
+
+</div>
 
 
         <button
@@ -65,7 +86,28 @@ const Navbar = () => {
             >
               {link}
             </Link>
+            
           ))}
+          <div className="mt-4 flex flex-col gap-3">
+
+  <Link
+    to="/login"
+    onClick={() => setIsOpen(false)}
+    className="text-blue-700 font-medium"
+  >
+    Login
+  </Link>
+
+
+  <Link
+    to="/register"
+    onClick={() => setIsOpen(false)}
+    className="bg-blue-700 text-white text-center py-2 rounded-lg"
+  >
+    Register
+  </Link>
+
+</div>
         </div>
       )}
 

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import aboutImage from "../../assets/images/about.jpg";
+import aboutImage from "../../assets/images/about.png";
 const About = () => {
   return (
     <section className="bg-white py-24">

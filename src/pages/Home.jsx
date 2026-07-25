@@ -4,6 +4,7 @@ import About from "../components/About/About";
 import Features from "../components/Features/Features";
 import Gallery from "../components/Gallery/Gallery";
 import Testimonials from "../components/Testimonials/Testimonials";
+import AdmissionCTA from "../components/AdmissionCTA/AdmissionCTA";
 const Home = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const Home = () => {
       <Features />
       <Gallery />
       <Testimonials />
+      <AdmissionCTA />
     </>
   );
 };

@@ -19,14 +19,15 @@ const Navbar = () => {
 
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
 
-        <div>
-          <h1 className="text-2xl font-bold text-blue-900">
-            EduNova
-          </h1>
-          <p className="text-xs text-gray-500">
-            Excellence in Education
-          </p>
-        </div>
+        <Link to="/">
+  <h1 className="text-2xl font-bold text-blue-900">
+    EduNova
+  </h1>
+
+  <p className="text-xs text-gray-500">
+    Excellence in Education
+  </p>
+</Link>
 
 
         <ul className="hidden md:flex items-center gap-8">

@@ -67,7 +67,7 @@ const Contact = () => {
                 <FaEnvelope className="text-blue-700 text-xl" />
 
                 <p>
-                  info@edunova.com
+                  info@vasantvalley.com
                 </p>
 
               </div>

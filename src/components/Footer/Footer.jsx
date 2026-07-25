@@ -14,12 +14,12 @@ const Footer = () => {
         {/* School Info */}
         <div>
           <h2 className="text-2xl font-bold">
-            EduNova
+            Vasant Valley School
           </h2>
 
           <p className="mt-4 text-gray-400 leading-7">
-            Empowering students with quality education,
-            innovation and values for a successful future.
+A modern learning environment focused on
+academic excellence, creativity and holistic development.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ const Footer = () => {
           </p>
 
           <p className="text-gray-400 mt-3">
-            ✉ info@edunova.com
+            ✉ info@vasantvalley.com
           </p>
         </div>
 
@@ -85,7 +85,7 @@ const Footer = () => {
 
       <div className="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400">
 
-        © 2026 EduNova School. All Rights Reserved.
+        © 2026 Vasant Valley School. All Rights Reserved.
 
       </div>
 

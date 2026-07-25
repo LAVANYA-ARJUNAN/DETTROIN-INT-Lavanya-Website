@@ -21,7 +21,7 @@ const Navbar = () => {
 
         <Link to="/">
   <h1 className="text-2xl font-bold text-blue-900">
-    EduNova
+    Vasant Valley School
   </h1>
 
   <p className="text-xs text-gray-500">

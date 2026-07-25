@@ -1,12 +1,11 @@
 import Navbar from "../components/Navbar/Navbar";
+import Hero from "../components/Hero/Hero";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="pt-32 text-center">
-        <h1 className="text-5xl font-bold">Welcome</h1>
-      </div>
+      <Hero />
     </>
   );
 };

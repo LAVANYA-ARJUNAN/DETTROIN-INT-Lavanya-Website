@@ -32,7 +32,7 @@ Vasant Valley School Website
 
 Add your Vercel deployment link here:
 
-YOUR_VERCEL_LINK_HERE
+https://dettroin-int-lavanya-website-9h6cfsws0.vercel.app/
 
 ---
 
@@ -88,3 +88,60 @@ YOUR_VERCEL_LINK_HERE
 ---
 
 ## Project Structure
+src
+│
+├── assets
+│ └── images
+│
+├── components
+│ ├── Navbar
+│ ├── Footer
+│ ├── Hero
+│ ├── About
+│ ├── Academics
+│ ├── Admissions
+│ └── Gallery
+│
+├── pages
+│ ├── Home
+│ ├── About
+│ ├── Academics
+│ ├── Admissions
+│ ├── Gallery
+│ ├── Contact
+│ ├── Login
+│ └── Register
+│
+└── App.jsx
+
+
+---
+
+## How to Run Locally
+
+Clone the repository:
+
+```bash
+git clone YOUR_REPOSITORY_LINK
+
+Install dependencies:
+
+npm install
+
+Start development server:
+
+npm run dev
+
+Build for production:
+
+npm run build
+Deployment
+
+The website is deployed using Vercel.
+
+Live Link:
+
+(https://dettroin-int-lavanya-website-9h6cfsws0.vercel.app/)
+
+
+
